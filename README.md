@@ -1,6 +1,6 @@
 # ALX Portfolio Project: VisualizeX
 
-Welcome to the README for my Portfolio Project, **VisualizeX**! This project marks a pivotal milestone in my development journey as both a student of the ALX - Holberton Software Engineering Programme and a growing developer. t serves as a testament of my skills, creativity, and technical abilities. Below, you'll find all the necessary information to understand, use, and appreciate the work I've put into this project.
+Welcome to the README for my Portfolio Project, **VisualizeX**! This project marks a pivotal milestone in my development journey as both a student of the ALX - Holberton Software Engineering Programme and a growing developer. This serves as a testament of my skills, creativity, and technical abilities. Below, you'll find all the necessary information to understand, use, and appreciate the work I've put into this project.
 
 ## Project Overview
 
