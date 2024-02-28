@@ -1,0 +1,111 @@
+body {
+	font-size: 1.25em;
+}
+
+input[type="file"]::file-selector-button {
+	display: none;
+}
+
+input[type="file"]:: {
+	display: none;
+}
+
+input[type="file"] {
+	border: 1px solid black;
+	padding: 100px;
+	border-radius: 10px;
+	transition: 250ms;
+	background-color: lightgray;
+	cursor: pointer;
+}
+
+input[type="file"]:hover {
+	background-color: gray;
+}
+
+.button-container {
+    display: flex;
+    justify-content: flex-start; /* Align buttons to the start of the container */
+    margin-top: 10px;
+    width: calc(100% - 20px); /* Adjust width as needed */
+    padding-left: 10px; /* Add padding to align with the docPicker box */
+}
+
+/* Adjust button styling */
+.button-container input[type="button"] {
+	cursor: pointer;
+	width: 180px;
+	height: 50px;
+	border-radius: 8px;
+	border: 1px solid gray;
+	margin: 0px 20px; /* Adjust margin as needed */
+}
+
+.button-container input[type="button"]:hover {
+	background-color: lightgray;
+}
+
+#startGraphing {
+    margin-left: 20px; 
+}
+/* 
+#startGraphing {
+	cursor: pointer;
+	width: 150px;
+	height: 50px;
+	border-radius: 8px;
+	border: 1px solid gray;
+	margin-left: 50%;
+	margin-top: 10px;
+}
+
+#plotBarChart {
+	cursor: pointer;
+	width: 150px;
+	height: 50px;
+	border-radius: 8px;
+	border: 1px solid gray;
+	margin-left: 50%;
+	margin-top: 10px;
+}
+
+#plotLineChart {
+	cursor: pointer;
+	width: 150px;
+	height: 50px;
+	border-radius: 8px;
+	border: 1px solid gray;
+	margin-left: 50%;
+	margin-top: 10px;
+}
+
+#plotPieChart {
+	cursor: pointer;
+	width: 150px;
+	height: 50px;
+	border-radius: 8px;
+	border: 1px solid gray;
+	margin-left: 50%;
+	margin-top: 10px;
+} */
+.notClicked {
+	transform: translate(calc(-50% - 10px));
+	box-shadow: 5px 5px 0px 0px black;
+}
+
+.clicked {
+	box-shadow: 2px 2px 0px 0px black;
+	transform: translate(calc(5px - 50% - 10px), 5px);
+}
+
+#interface {
+	margin: auto;
+	width: 50%;
+	padding: 10px;
+	border-radius: 10px;
+}
+
+.button-container[type="button"] {
+	padding: 1%;
+	margin: 1% 2% 1%;
+}
